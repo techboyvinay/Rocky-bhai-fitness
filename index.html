@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocky bhai fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/jpg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        line-height: 0px;
+
+        text-align: center;
+
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(132, 255, 0); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(10, 10, 10); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 3px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        margin: 0px 5px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(216, 180, 180);
+    }
+
+    .container {
+        background: url('img/bg.jpg');
+        border: 2px solid #f3faf3;
+        margin: 109px 166px;
+        padding: 19px 40px;
+        width: 33%;
+        border-radius: 43px;
+    }
+
+    .form input {
+        text-align: center;
+        display: block;
+        width: 261px;
+        padding: 12px;
+        border: 2px solid black;
+        margin: 8px auto;
+        border-radius: 10px
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: 10px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/final logo.png" alt="">
+            <div>Bhai Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Buxar now</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name=" " placeholder="Enter your Name">
+            </div>
+            <form action="noaction.php">
+                <div class="form">
+                    <input type="text" name=" " placeholder="Enter your Age">
+                </div>
+                <form action="noaction.php">
+                    <div class="form">
+                        <input type="text" name=" " placeholder="Enter your Gender">
+                    </div>
+                    <form action="noaction.php">
+                        <div class="form">
+                            <input type="text" name=" " placeholder="Enter your Contact no.">
+                        </div>
+                        <form action="noaction.php">
+                            <div class="form">
+                                <input type="text" name=" " placeholder="Enter your Locality">
+                            </div>
+                            <button class="btn">Submit</button>
+                        </form>
+    </div>
+</body>
+
+</html>
